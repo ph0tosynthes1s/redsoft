@@ -1,0 +1,214 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, html h1, html h2, html h3, html h4, html h5, html h6 {
+  margin: 0;
+  padding: 0;
+}
+body a, html a {
+  text-decoration: none;
+  color: black;
+}
+body .container, html .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body input, html input {
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #E1E1E1;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  width: 416px;
+  padding-left: 16px;
+  padding-right: 130px;
+}
+body button, html button {
+  font-size: 14px;
+  border: none;
+  color: white;
+  background-color: #382E2B;
+  padding: 14px 30px 13px 31px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+body button:hover, html button:hover {
+  background: #776763;
+  transition: 0.3s;
+}
+body header, html header {
+  border-bottom: 1px solid #E1E1E1;
+}
+body header .container--header, html header .container--header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 97px;
+}
+body header__logo, html header__logo {
+  margin-right: 48px;
+}
+body header__links, html header__links {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: auto;
+}
+body header__links .header__links-item, html header__links .header__links-item {
+  display: inline;
+  margin-right: 48px;
+}
+body header .header__search, html header .header__search {
+  position: relative;
+  align-items: center;
+  width: 416px;
+}
+body header .header__search .header__search-button, html header .header__search .header__search-button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  height: 48px;
+  width: 122px;
+  padding: 0;
+  cursor: pointer;
+}
+body .main, html .main {
+  margin-top: 45px;
+}
+body .main .main__title, html .main .main__title {
+  margin-bottom: 39px;
+}
+body .main .main__items, html .main .main__items {
+  display: flex;
+  justify-content: space-between;
+}
+body .main .main__items .main__item-card, html .main .main__items .main__item-card {
+  border: 1px solid #E1E1E1;
+}
+body .main .main__items .main__item-card .main__item-id, html .main .main__items .main__item-card .main__item-id {
+  display: none;
+}
+body .main .main__items .main__item-card .main__card-pic, html .main .main__items .main__item-card .main__card-pic {
+  border-bottom: 1px solid #E1E1E1;
+}
+body .main .main__items .main__item-card .main__card-title, html .main .main__items .main__item-card .main__card-title {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0px 36px 0px 24px;
+}
+body .main .main__items .main__item-card .main__card-author, html .main .main__items .main__item-card .main__card-author {
+  padding: 0px 36px 0px 24px;
+}
+body .main .main__items .main__item-card .main__card-bottom, html .main .main__items .main__item-card .main__card-bottom {
+  margin: 0 auto;
+  margin: 22px 0px 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main .main__items .main__item-card .main__card-bottom .main__card-price, html .main .main__items .main__item-card .main__card-bottom .main__card-price {
+  margin-right: 20px;
+}
+body .main .main__items .main__item-card .main__card-bottom .main__card-sold, html .main .main__items .main__item-card .main__card-bottom .main__card-sold {
+  display: none;
+}
+body .main .main__items .main__item-card .main__card-bottom .main__card-price-value, html .main .main__items .main__item-card .main__card-bottom .main__card-price-value {
+  font-size: 14px;
+  color: #A0A0A0;
+  text-decoration: line-through;
+}
+body .main .main__items .main__item-card .main__card-bottom .main__card-button-non_active .main__button-pic, html .main .main__items .main__item-card .main__card-bottom .main__card-button-non_active .main__button-pic {
+  display: none;
+}
+body .main .main__items .main__item-card .main__card-bottom .main__card-button_active .main__button-pic, html .main .main__items .main__item-card .main__card-bottom .main__card-button_active .main__button-pic {
+  display: inline-block;
+}
+body .main .main__items .main__item-card--sold, html .main .main__items .main__item-card--sold {
+  border: 1px solid #E1E1E1;
+  opacity: 50%;
+}
+body .main .main__items .main__item-card--sold .main__card-pic, html .main .main__items .main__item-card--sold .main__card-pic {
+  border-bottom: 1px solid #E1E1E1;
+}
+body .main .main__items .main__item-card--sold .main__card-title, html .main .main__items .main__item-card--sold .main__card-title {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0px 36px 0px 24px;
+}
+body .main .main__items .main__item-card--sold .main__card-author, html .main .main__items .main__item-card--sold .main__card-author {
+  padding: 0px 36px 0px 24px;
+}
+body .main .main__items .main__item-card--sold .main__card-bottom, html .main .main__items .main__item-card--sold .main__card-bottom {
+  margin: 0 auto;
+  margin: 22px 0px 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main .main__items .main__item-card--sold .main__card-bottom .main__item-id, html .main .main__items .main__item-card--sold .main__card-bottom .main__item-id {
+  display: none;
+}
+body .main .main__items .main__item-card--sold .main__card-bottom .main__card-price, html .main .main__items .main__item-card--sold .main__card-bottom .main__card-price {
+  display: none;
+}
+body .main .main__items .main__item-card--sold .main__card-bottom .main__card-price-value, html .main .main__items .main__item-card--sold .main__card-bottom .main__card-price-value {
+  display: none;
+}
+body .main .main__items .main__item-card--sold .main__card-bottom .main__card-sold, html .main .main__items .main__item-card--sold .main__card-bottom .main__card-sold {
+  display: block;
+}
+body .main .main__items .main__item-card--sold .main__card-bottom .main__card-button, html .main .main__items .main__item-card--sold .main__card-bottom .main__card-button {
+  display: none;
+}
+body footer, html footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #ECEAEA;
+  border-bottom: 1px solid #E1E1E1;
+}
+body footer .container--footer, html footer .container--footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 96px;
+}
+body footer .footer__logo, html footer .footer__logo {
+  margin-right: 48px;
+}
+body footer .footer__links, html footer .footer__links {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: auto;
+}
+body footer .footer__links .footer__links-item, html footer .footer__links .footer__links-item {
+  display: inline;
+  margin-right: 48px;
+}
+body footer .footer__contacts, html footer .footer__contacts {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  justify-content: end;
+}
+body footer .footer__contacts .footer__contacts-item, html footer .footer__contacts .footer__contacts-item {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-left: 51px;
+}
+body footer .footer__contacts .footer__contacts-item .footer__contacts-pic, html footer .footer__contacts .footer__contacts-item .footer__contacts-pic {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

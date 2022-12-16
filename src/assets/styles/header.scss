@@ -1,0 +1,36 @@
+.header{
+    border-bottom: 1px solid #E1E1E1;
+
+    &__logo{
+        margin-right:48px;
+    }
+
+    &__links{
+        display: inline;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-right: auto;
+
+        &-item{
+            display: inline;
+            margin-right: 48px;
+        }
+    }
+
+    &__search{
+        position: relative;
+        align-items: center;
+        width: 416px;
+        
+        &-button{
+            position: absolute;
+            top: 0;
+            right: 0px;
+            height:48px;
+            width: 122px;
+            padding: 0;
+            cursor: pointer;
+        }
+    }
+}

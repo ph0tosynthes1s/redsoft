@@ -1,0 +1,49 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #ECEAEA;
+
+    &__logo{
+        margin-right:48px;
+    }
+
+    &__links{
+        display: inline;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-right: auto;
+
+        &-item{
+            display: inline;
+            margin-right: 48px;
+            &-src{
+                color:#555555;
+            }
+        }
+
+    }
+
+    &__contacts{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-left: auto;
+        justify-content:end;
+
+        &-item{
+            display: flex;
+            align-items: center;
+            text-align: right;
+            margin-left: 51px;
+
+            &-pic{
+                margin-right:10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.item-card{
+    border: 1px solid #E1E1E1;
+
+    &__pic{
+        border-bottom: 1px solid #E1E1E1;
+    }
+
+    &__title{
+        margin: 0 auto;
+        margin-top:20px;
+        padding: 0px 36px 0px 24px;
+    }
+
+    &__author{
+        padding: 0px 36px 0px 24px;
+    }
+
+    &__bottom{
+        margin: 0 auto;
+        margin: 22px 0px 24px 0px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+
+        &-sold{
+            display: none;
+        }
+
+        &-block{
+
+            &-price{
+                margin-right:20px;
+            }
+
+            &-value{
+                font-size:14px;
+                color: #A0A0A0;
+                text-decoration: line-through;
+            }
+
+            &-button{
+                &--non-active{
+        
+                    .item-card__bottom-block-button-pic{
+                        display: none;
+                    }
+        
+                }
+        
+                &--active{
+        
+                    .item-card__bottom-block-button-pic{
+                        display: inline-block;
+                    }
+        
+                }
+
+            }
+
+        }
+
+    }
+    &--sold{
+        border: 1px solid #E1E1E1;
+        opacity:50%;
+    
+        .item-card__pic{
+            border-bottom: 1px solid #E1E1E1;
+        }
+    
+        .item-card__title{
+            margin: 0 auto;
+            margin-top:20px;
+            padding: 0px 36px 0px 24px;
+        }
+    
+        .item-card__author{
+            padding: 0px 36px 0px 24px;
+        }
+    
+        .item-card__bottom{
+            margin: 0 auto;
+            margin: 22px 0px 24px 0px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+
+            &-sold{
+                display: block;
+            }
+
+            &-block{
+
+                &-price{
+                    display: none;
+                }
+        
+                &-value{
+                    display: none;
+                }
+        
+        
+                &-button{
+                    display: none;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
